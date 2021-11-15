@@ -4,6 +4,7 @@ import arcpy
 
 
 layerString = ".\HSSymbols.lyr"
+#layerString = "D:\Code\Python\ArcPy\Ex7_PrintInfo\HSSymbols.lyr"
 desc = arcpy.Describe(layerString)
 
 # Print selected layer and describe object properties
